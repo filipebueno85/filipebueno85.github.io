@@ -1,0 +1,79 @@
+
+       .meu_nome {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+                   }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #DECBB7;
+           color: #433633;
+           padding: 3%;
+        }
+
+        ul.lista_habilidades {
+            list-style-type: circle;
+        }
+        
+
+        /* img {
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+        } */
+
+        #foto_perfil {
+            border-radius: 100%;
+        }
+
+        .image_content {
+        height: 250px;
+        position: relative;   
+        }
+
+        #foto_perfil {
+            float: left;
+            height: 230px;
+            padding: 10px;
+            background-color: #433633;
+        }
+
+        .descricao {
+            position: absolute;
+            top: 40%;
+            right: 20%; 
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .local {
+            font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        ul li:nth-child(odd) {
+            background-color: #433633;
+            color: #DECBB7;
+        }
+
+        ul li:hover {
+            background-color: peru;
+        }
+
+        .habilidades_box {
+          height: 200px;
+          position: relative;
+          padding: 4%;
+        }
+    .habilidades_titulo {
+        height: 15px;
+        top: 4px;
+        left: 22px;
+        position: relative;
+        font-size: 2em;
+    }
+
+    .alista_habilidades{
+        position: relative;
+        height: 200px;
+    }

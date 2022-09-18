@@ -1,8 +1,9 @@
 
        .meu_nome {
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            text-align: center;
-                   }
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
 
         * {
             margin: 0;
@@ -10,7 +11,7 @@
         }
 
         body {
-            font-family: 'Courier New', Courier, monospace;
+            font-family: 'Barlow', sans-serif;
             background-color: #DECBB7;
            color: #433633;
            padding: 5%;
@@ -71,22 +72,14 @@
         }
 
         .habilidades_box {
-            top: 10px;
-            width: 900px;
-          height: 200px;
-          position: relative;
-          padding: 20px 30px;
+          margin-top: 30px;
+          margin-bottom: 40px;
         }
     .habilidades_titulo {
-        height: 100px;
-        top: 5px;
-        left: 1px;
-        position: relative;
-        font-size: 2em;
+    
     }
 
      .lista_habilidades {
-        position: absolute;
-        top: 65px;
-        height: 40px;
+    width: 100px;
+       
     }

@@ -71,22 +71,22 @@
         }
 
         .habilidades_box {
-            top: 400px;
+            top: 450px;
             width: 900px;
-          height: 100px;
+          height: 250px;
           position: absolute;
-
+            border: #433633 solid 2px;
         }
     .habilidades_titulo {
         height: 100px;
         top: 10px;
-        left: 22px;
+        left: 5px;
         position: relative;
         font-size: 2em;
     }
 
-    .alista_habilidades{
-        position: absolute;
-        height: 50px;
-        top: 30px;
+    ul .lista_habilidades{
+        position: relative;
+        top: 10px;
+        height: auto;
     }

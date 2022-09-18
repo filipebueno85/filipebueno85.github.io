@@ -23,6 +23,10 @@
      margin-right: auto;
         } */
 
+        .paragrafo {
+            width: 950px;
+        }
+
         #foto_perfil {
             border-radius: 100%;
         }
@@ -62,6 +66,7 @@
         }
 
         .habilidades_box {
+            width: 800px;
           height: 200px;
           position: relative;
           padding: 4%;

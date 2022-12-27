@@ -8,16 +8,23 @@ import fotoPerfil from '../images/foto-portfolio1.png';
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <Header />
+        <div>
+        <div className="profile">
         <img 
-        style={{ width: "200px", height: "200px", borderRadius: "100%" }} 
+        style={{ width: "200px", 
+        height: "200px", 
+        borderRadius: "100%",
+       }} 
         src={fotoPerfil} 
         alt="foto-filipe" 
         />
         <ProfileDescription />
+        </div>
         <Habilidades />
         <Graduation />
+        </div>
       </div>
     );
   }

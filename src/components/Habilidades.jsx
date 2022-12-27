@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Habilidades extends Component {
   render() {
     return (
-      <div>
-        <h3 class="habilidades_titulo">Habilidades</h3>
+      <div className="habilidades-container">
+        <h2 className="habilidades_titulo">Habilidades</h2>
         <ul>
           <li>Unix</li>
           <li>GitHub</li>

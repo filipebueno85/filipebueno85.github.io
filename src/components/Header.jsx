@@ -11,6 +11,20 @@ class Header extends Component {
             <li>
             <Link to="/">Home</Link>
             <Link to="/projetos">Projetos</Link>
+            <a 
+            href="https://github.com/filipebueno85" 
+            target="_blank" 
+            rel="noreferrer" 
+            >
+              GitHub
+              </a>
+            <a 
+            href="https://www.linkedin.com/in/filipebueno85/" 
+            target="_blank" 
+            rel="noreferrer" 
+            >
+              Linkedin
+              </a>
             </li>
           </ul>
         </nav>

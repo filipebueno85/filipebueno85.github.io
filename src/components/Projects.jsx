@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import cardTrunfo from '../images/card-trunfo.png';
 import filipeTunes from '../images/filipe-tunes.png';
+import wikiDisney from '../images/wiki-disney.png';
 
 class Projects extends Component {
   render() {
@@ -22,6 +23,14 @@ class Projects extends Component {
            />
           <br />
           <a className="trunfo-link" href="https://filipe-tunes.vercel.app/" target="_blank" rel="noreferrer">Filipe Tunes</a>
+        </div>
+        <div className="projeto-container">
+          <img
+            src={wikiDisney}
+            alt="wikiDIney"
+           />
+          <br />
+          <a className="trunfo-link" href="https://wiki-disney.vercel.app/" target="_blank" rel="noreferrer">WikiDisney</a>
         </div>
         </div>
       </div>

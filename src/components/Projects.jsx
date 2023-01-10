@@ -7,8 +7,8 @@ import wikiDisney from '../images/wiki-disney.png';
 class Projects extends Component {
   render() {
     return (
-      <div className="projetos">
-        <div>
+      <div >
+        <div className="projetos">
         <div className="projeto-container">
           <img
             src={cardTrunfo}

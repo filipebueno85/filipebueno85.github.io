@@ -12,7 +12,7 @@ class Graduation extends Component {
           <p>Negócios da Moda - Universidade Anhembi Morumbi</p>
         </div>
         <div>
-          <img src="https://www.betrybe.com/static/images/logo-negative-green.svg" alt="" />
+          <img style={ {width: '100px'}} src="https://theme.zdassets.com/theme_assets/9633455/ecf228e8c15da1a8bd07f574e675a0ac59330968.png" alt="" />
           <p>Desenvolvimento Web - Trybe - Set 2022 - Set 2023</p>
         </div>
       </div>

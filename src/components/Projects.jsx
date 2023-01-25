@@ -48,7 +48,7 @@ class Projects extends Component {
             alt="onlineStore"
            />
           <br />
-          <a className="trunfo-link" href="https://online-store-group13.vercel.app/" target="_blank" rel="noreferrer">PrevTempo</a>
+          <a className="trunfo-link" href="https://online-store-group13.vercel.app/" target="_blank" rel="noreferrer">Online Store</a>
         </div>
         </div>
       </div>

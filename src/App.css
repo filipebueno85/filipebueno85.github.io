@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url('./images/parede-tij-roxa.jpg');
+  background-image: url('./images/spacebkg.jpg');
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@ body {
   padding: 15px;
   font-size: 15px;
   font-family: 'Lastwaerk black', sans-serif;
-  color: rgb(144, 31, 175);
+  color: rgb(0, 0, 0);
 }
 
 .container {
@@ -52,7 +52,7 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   font-size: 20px;
-  color: rgb(144, 31, 175);
+  color: rgb(0, 0, 0);
 }
 
 header nav ul li a:hover {
@@ -76,7 +76,7 @@ header nav ul li a:hover {
 
 .description-container {
   background-color: rgba(255, 255, 255, 0.9);
-  color: rgb(144, 31, 175);
+  color: rgb(0, 0, 0);
   border-radius: 10px;
   align-items: center;
   display: flex;
@@ -94,7 +94,7 @@ header nav ul li a:hover {
  /* ------------------------- habilidades -------------------------------- */
  .habilidades-container{
    background-color: rgba(255, 255, 255, 0.9);
-   color: rgb(144, 31, 175);
+   color: rgb(0, 0, 0);
    border-radius: 10px;
    display: flex;
    flex-direction: column;
@@ -154,14 +154,26 @@ header nav ul li a:hover {
     box-shadow: 3px 2px 2px 1px rgb(17, 15, 15);
    }
 
+   .projeto-container p {
+    display: flex;
+    align-items: center;
+    background-color: rgb(201, 194, 194);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    width: 500px;
+    height: 90px;
+    margin: 5px;
+    padding: 5px; 
+   }
+
    .projeto-container a {
     display: flex;
     border-radius: 8px;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: rgb(144, 31, 175);
-    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     height: 40px;
     width: 100px;
     box-shadow: 3px 2px 2px 1px rgb(17, 15, 15);
@@ -175,7 +187,7 @@ header nav ul li a:hover {
   
   .graduation-container {
     background-color: rgba(255, 255, 255, 0.9);
-    color: rgb(144, 31, 175);
+    color: rgb(0, 0, 0);
     border-radius: 10px;
     display: flex;
   flex-direction: column;
@@ -186,12 +198,12 @@ header nav ul li a:hover {
  }
 
  .graduation-container h2 {
-  color: rgb(144, 31, 175);
+  color: rgb(0, 0, 0);
  }
 
  @media  screen and (max-width: 800px)   {
   body {
-    background-image: url('./images/parede-tij-roxa.jpg');
+    background-image: url('./images/spacebkg.jpg');
     background-size: 100vh;
   }
   .container {

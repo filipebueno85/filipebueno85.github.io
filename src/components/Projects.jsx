@@ -62,15 +62,6 @@ class Projects extends Component {
           </div>
           <div className="projeto-container">
             <img
-              src={PrevTempo}
-              alt="PrevTempo"
-            />
-            <p>No PrevTempo você consegue pesquisar qualquer cidade do Brasil, para saber a previsão do dia e podendo ver para os próximos 10 dias.</p>
-            <br />
-            <a className="trunfo-link" href="https://previ-tempo.vercel.app/" target="_blank" rel="noreferrer">PrevTempo</a>
-          </div>
-          <div className="projeto-container">
-            <img
               src={carteiraDigital}
               alt="Carteira Digital"
             />

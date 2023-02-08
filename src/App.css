@@ -13,7 +13,7 @@ body {
   margin: 10px;
   padding: 15px;
   font-size: 15px;
-  font-family: 'Lastwaerk black', sans-serif;
+  font-family: Noto Sans Warang Citi, sans-serif;
   color: rgb(0, 0, 0);
 }
 
@@ -157,7 +157,8 @@ header nav ul li a:hover {
    .projeto-container p {
     display: flex;
     align-items: center;
-    background-color: rgb(201, 194, 194);
+    /* background-color: rgb(201, 194, 194); */
+    font-weight: 700;
     border-radius: 10px;
     color: rgb(0, 0, 0);
     width: 500px;
@@ -199,6 +200,24 @@ header nav ul li a:hover {
 
  .graduation-container h2 {
   color: rgb(0, 0, 0);
+ }
+
+ /* ==================== Footer ===================================== */
+ footer {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 3px 2px 2px 1px rgb(17, 15, 15);
+}
+
+footer a {
+  font-weight: 700;
+   color: rgb(0, 0, 0);
+  text-decoration: none;
  }
 
  @media  screen and (max-width: 800px)   {

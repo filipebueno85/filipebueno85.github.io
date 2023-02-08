@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Footer from '../components/Footer';
 import Graduation from '../components/Graduation';
 import Habilidades from '../components/Habilidades';
 import Header from '../components/Header';
@@ -24,6 +25,7 @@ class Home extends Component {
         </div>
         <Habilidades />
         <Graduation />
+        <Footer />
         </div>
       </div>
     );

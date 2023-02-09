@@ -12,6 +12,7 @@ class Habilidades extends Component {
         <img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="css" />
         <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="html" />
         <img src="https://logospng.org/download/react/logo-react-256.png" alt="react" />
+        <img src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="redux" />
         <img src="https://logosmarcas.net/wp-content/uploads/2020/11/Adobe-Photoshop-Logo-650x366.png" alt="photoshop" />
         <img src="https://logodownload.org/wp-content/uploads/2017/04/adobe-Illustrator-logo-0-1-2048x2048.png" alt="illustrator" />
         <img src="https://www.coreldraw.com/static/cdgs/images/pages/product-info-sheet/key-img.png" alt="coreldraw" />

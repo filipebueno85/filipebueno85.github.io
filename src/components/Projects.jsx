@@ -28,7 +28,7 @@ class Projects extends Component {
             </div>
             </div>
       
-            <a className="trunfo-link" href="https://online-store-group13.vercel.app/" target="_blank" rel="noreferrer">App de Receitas </a>
+            <a className="trunfo-link" href="https://aplicativo-de-receitas-18.vercel.app/" target="_blank" rel="noreferrer">App de Receitas </a>
           </div>
           <div className="projeto-container">
             <img

@@ -9,6 +9,9 @@ class Projetos extends Component {
     return (
       <div>
       <Header />
+      <div className="habilidades-container">
+      <h2>Projetos</h2>
+      </div>
       <div className="container">
         <Projects />
       </div>

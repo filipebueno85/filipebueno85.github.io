@@ -14,6 +14,7 @@ class Projects extends Component {
         <div className="projetos">
           <div className="projeto-container">
           <img
+              height={ '200px' }
               src={appReceitas}
               alt="appReceitas"
             />
@@ -26,11 +27,12 @@ class Projects extends Component {
               <img style={ { width:  '60px' } } src="https://logospng.org/download/react/logo-react-256.png" alt="react" />
             </div>
             </div>
-            <br />
+      
             <a className="trunfo-link" href="https://online-store-group13.vercel.app/" target="_blank" rel="noreferrer">App de Receitas </a>
           </div>
           <div className="projeto-container">
             <img
+              height={ '200px' }
               src={onlineStore}
               alt="onlineStore"
             />
@@ -43,11 +45,11 @@ class Projects extends Component {
               <img style={ { width:  '60px' } } src="https://logospng.org/download/react/logo-react-256.png" alt="react" />
             </div>
             </div>
-            <br />
             <a className="trunfo-link" href="https://online-store-group13.vercel.app/" target="_blank" rel="noreferrer">Online Store</a>
           </div>
           <div className="projeto-container">
             <img
+              height={ '200px' }
               src={carteiraDigital}
               alt="Carteira Digital"
             />
@@ -61,11 +63,12 @@ class Projects extends Component {
               <img style={ { width:  '60px' } } src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="react" />
             </div>
             </div>
-            <br />
+            {/* <br /> */}
             <a className="trunfo-link" href="https://carteira-digital-filipebueno85.vercel.app/" target="_blank" rel="noreferrer">Carteira Digital</a>
           </div>
           <div className="projeto-container">
             <img
+              height={ '200px' }
               src={cardTrunfo}
               alt="card-trunfo"
             />
@@ -78,11 +81,12 @@ class Projects extends Component {
               <img style={ { width:  '60px' } } src="https://logospng.org/download/react/logo-react-256.png" alt="react" />
             </div>
             </div>
-            <br />
+            {/* <br /> */}
             <a className="trunfo-link" href="https://card-trunfo-p55g.vercel.app/" target="_blank" rel="noreferrer">Card Trunfo</a>
           </div>
           <div className="projeto-container">
             <img
+              height={ '200px' }
               src={filipeTunes}
               alt="card-trunfo"
             />
@@ -95,11 +99,12 @@ class Projects extends Component {
               <img style={ { width:  '60px' } } src="https://logospng.org/download/react/logo-react-256.png" alt="react" />
             </div>
             </div>
-            <br />
+            {/* <br /> */}
             <a className="trunfo-link" href="https://filipe-tunes.vercel.app/" target="_blank" rel="noreferrer">Filipe Tunes</a>
           </div>
           <div className="projeto-container">
             <img
+              height={ '200px' }
               src={wikiDisney}
               alt="wikiDIney"
             />
@@ -116,11 +121,12 @@ class Projects extends Component {
               <img style={ { width:  '60px' } } src="https://logospng.org/download/react/logo-react-256.png" alt="react" />
             </div>
             </div>
-            <br />
+            {/* <br /> */}
             <a className="trunfo-link" href="https://wiki-disney.vercel.app/" target="_blank" rel="noreferrer">WikiDisney</a>
           </div>
           <div className="projeto-container">
             <img
+              height={ '200px' }
               src={PrevTempo}
               alt="PrevTempo"
             />
@@ -133,7 +139,7 @@ class Projects extends Component {
               <img style={ { width:  '60px' } } src="https://logospng.org/download/react/logo-react-256.png" alt="react" />
             </div>
             </div>
-            <br />
+            {/* <br /> */}
             <a className="trunfo-link" href="https://previ-tempo.vercel.app/" target="_blank" rel="noreferrer">PrevTempo</a>
           </div>
 

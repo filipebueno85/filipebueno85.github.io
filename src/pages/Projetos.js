@@ -7,9 +7,11 @@ import Projects from '../components/Projects';
 class Projetos extends Component {
   render() {
     return (
+      <div>
+      <Header />
       <div className="container">
-        <Header />
         <Projects />
+      </div>
       </div>
     );
   }

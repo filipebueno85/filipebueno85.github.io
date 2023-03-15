@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import appReceitas from '../images/appReceitas.png';
 import cardTrunfo from '../images/card-trunfo.png';
 import carteiraDigital from '../images/carteira-digital.png';
 import filipeTunes from '../images/filipe-tunes.png';
@@ -11,6 +12,23 @@ class Projects extends Component {
     return (
       <div >
         <div className="projetos">
+          <div className="projeto-container">
+          <img
+              src={appReceitas}
+              alt="appReceitas"
+            />
+            <p>O App de Receitas é um aplicativo onde você encontra diversas receitas de comidas e drinks, simulando um livro de receitas que todo mundo gostaria de ter em casa! Na aplicação você consegue realizar uma pesquisa por ingredientes, pelo nome de uma receita e pela primeira letra do nome de uma receita. É possível favoritar essa receita e também fazer o checklist dos ingredientes enquanto o usuário executa sua receita!</p>
+            <div className="habilidades-container-project">
+            <div className="logos">
+              <img style={ { width:  '60px' } } src="https://logospng.org/download/javascript/logo-javascript-icon-256.png" alt="javascript" />
+              <img style={ { width:  '60px' } } src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="css" />
+              <img style={ { width:  '60px' } } src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="html" />
+              <img style={ { width:  '60px' } } src="https://logospng.org/download/react/logo-react-256.png" alt="react" />
+            </div>
+            </div>
+            <br />
+            <a className="trunfo-link" href="https://online-store-group13.vercel.app/" target="_blank" rel="noreferrer">App de Receitas </a>
+          </div>
           <div className="projeto-container">
             <img
               src={onlineStore}

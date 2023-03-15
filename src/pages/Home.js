@@ -9,8 +9,9 @@ import fotoPerfil from '../images/foto-portfolio1.png';
 class Home extends Component {
   render() {
     return (
-      <div className="container">
+      <div>
         <Header />
+      <div className="container">
         <div>
         <div className="profile">
         <img 
@@ -27,6 +28,7 @@ class Home extends Component {
         <Graduation />
         <Footer />
         </div>
+      </div>
       </div>
     );
   }

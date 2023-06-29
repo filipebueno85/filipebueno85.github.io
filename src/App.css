@@ -9,7 +9,6 @@ body {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
   margin: 10px;
   padding: 15px;
   font-size: 15px;
@@ -19,12 +18,10 @@ body {
 
 .container {
   display: flex;
-  /* margin: 10px; */
-  /* padding: 10px; */
   }
 
 
-header {
+/* header {
   font-family: 'MOCKEJOE FONT', sans-serif;
   align-content: center;
   align-items: center;
@@ -36,40 +33,148 @@ header {
   background-color: rgba(255, 255, 255, 0.8);
   gap: 40px;
   box-shadow: 3px 2px 2px 1px rgb(17, 15, 15);
+} */
+
+/* header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  padding: 20px;
+  z-index: 9999;
 }
 
-header h1 {
-  font-size: 1.5em;
-}
-
-header nav {
+.menu {
   display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
-  /* gap: 10px; */
-  margin: 5px;
-}
-
-header nav ul li {
   align-items: center;
+  justify-content: space-around;
+}
+
+.menu.open .menu-items {
   display: flex;
-  /* flex-direction: column; */
-  gap: 30px;
+  flex-direction: column;
+  align-items: start;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 30%;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 999;
 }
 
-header nav ul li a {
-  text-decoration: none;
-  font-size: 20px;
-  color: rgb(0, 0, 0);
+.menu-icon {
+  cursor: pointer;
 }
 
-header nav ul li a:hover {
-  background-color: rgb(255, 255, 255);
-  border-radius: 5px;
+.menu-line {
+  width: 30px;
+  height: 4px;
+  background-color: #000000;
+  margin: 4px 0;
+}
+
+.menu-items a {
   color: black;
-  padding: 5px;
+  text-decoration: none;
 }
 
+.menu-items {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-items li {
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+} */
+
+
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 20px;
+  z-index: 9999;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu.open .menu-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 20%;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+.menu-line {
+  width: 30px;
+  height: 4px;
+  background-color: #000000;
+  margin: 4px 0;
+}
+
+.menu-items {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-items a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu-items li {
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 
 /* ------------------------- description -------------------------------- */
 .profile {
@@ -144,17 +249,84 @@ header nav ul li a:hover {
   } */
   /* ------------------------- Projetos
    -------------------------------- */
-  
-   
    .projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .projeto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .projeto-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .projeto-container img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .projeto-container p {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .projeto-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .projeto-container a:hover {
+    background-color: #262627;
+  }
+
+  .logos-project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    width: 80vw;
+  }
+
+  .logos-project img {
+    width: 60px;
+    height: 60px;
+  }
+
+   
+   /* .projetos {
      display: flex;
      flex-wrap: wrap;
-     /* flex-direction: column; */
      justify-content: center;
      align-content: center;
      margin: 5px;
      padding: 5px;
-     /* background-color: aquamarine; */
     }
     
     .projeto-container {
@@ -166,7 +338,6 @@ header nav ul li a:hover {
      align-items: center;
      padding: 10px;
      margin: 10px;
-     /* height: 580px; */
      border-radius: 5px;
      justify-content: baseline;
      background-color: rgba(255, 255, 255, 0.9);
@@ -187,7 +358,6 @@ header nav ul li a:hover {
     font-size: 0.8em;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.9);
-    /* background-color: rgba(255, 255, 255, 0.9); */
     font-weight: 700;
     border-radius: 5px;
     justify-content: center;
@@ -206,7 +376,6 @@ header nav ul li a:hover {
     text-decoration: none;
     color: rgb(4, 4, 4);
     background-color: rgba(255, 255, 255, 0.9);
-    /* background-color: rgb(0, 0, 0, 0.9); */
     height: 40px;
     font-weight: 700;
     min-width: 120px;
@@ -215,7 +384,7 @@ header nav ul li a:hover {
 
    .projeto-container a:hover {
     color: gray;
-   } 
+   }  */
 
   /* ------------------------- Graduation -------------------------------- */
   
@@ -283,19 +452,8 @@ footer a {
     gap: 0;
   }
 
-  header nav ul li h1 {
-    font-size: 1em;
-    text-align: center;
-  }
-
-  header nav {
-    flex-direction: row;
-  }
-
-  header nav ul li {
-    align-items: center;
-    gap: 0;
-    flex-direction: row;
+  .menu.open .menu-items {
+    width: 40%;
   }
   .profile {
     display: flex; 

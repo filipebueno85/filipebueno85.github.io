@@ -14,8 +14,7 @@ function Curriculum() {
   <p>Espanhol – intermediário</p>
 
   <h1>Experiência Profissional</h1>
-  <h2>Freelance - Designer gráfico freelancer</h2>
-  <p>Silika Comunicação Digital</p>
+  <h2>Silika Comunicação Digital</h2>
   <p>Atendimento Publicitário</p>
   <p>dezembro de 2017 - novembro de 2018 - São Paulo e Região, Brasil</p>
   <p>

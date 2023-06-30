@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Projects from '../components/Projects';
 
 
-class Projetos extends Component {
-  render() {
+function Projetos() {
     return (
       <div>
       <Header />
@@ -18,6 +17,5 @@ class Projetos extends Component {
       </div>
     );
   }
-}
 
 export default Projetos;

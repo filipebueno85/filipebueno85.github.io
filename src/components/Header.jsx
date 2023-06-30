@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import gitHub from '../images/githubIcon.png';
 import linkedin from '../images/linkedinIcon.png';
 
-const Header = () => {
+function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -28,6 +28,9 @@ const Header = () => {
           </li>
           <li>
             <Link to="/projetos" onClick={closeMenu}><h2>Projetos</h2></Link>
+          </li>
+          <li>
+            <Link to="/cv" onClick={closeMenu}><h2>Currículo</h2></Link>
           </li>
           <div className="social-icons">
             <a

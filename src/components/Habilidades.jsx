@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Habilidades extends Component {
-  render() {
+function Habilidades(){
+
     return (
       <div className="habilidades-container">
         <h2 className="habilidades_titulo">Habilidades</h2>
@@ -32,21 +32,8 @@ class Habilidades extends Component {
         <img src="https://seeklogo.com/images/J/jwt-logo-65D86B4640-seeklogo.com.png" alt="jwt" />
         <img src="https://assets.stickpng.com/images/5cb480cd5f1b6d3fbadece79.png" alt="slack" />
         </div>
-        {/* <ul>
-          <li>Unix</li>
-          <li>GitHub</li>
-          <li>Git</li>
-          <li>JavaScript</li>
-          <li>CSS</li>
-          <li>React</li>
-          <li>HTML</li>
-          <li>Photoshop</li>
-          <li>Illustrator</li>
-          <li>Corel Draw</li>
-        </ul> */}
       </div>
     );
   }
-}
 
 export default Habilidades;

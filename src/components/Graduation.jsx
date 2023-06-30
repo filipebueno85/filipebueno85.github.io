@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Graduation extends Component {
-  render() {
+function Graduation() {
     return (
       <div className="graduation-container">
         <h2>Graduação</h2>
@@ -18,6 +17,5 @@ class Graduation extends Component {
       </div>
     );
   }
-}
 
 export default Graduation;

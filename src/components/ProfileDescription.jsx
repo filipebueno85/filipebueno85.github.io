@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class ProfileDescription extends Component {
-  render() {
+function ProfileDescription() {
     return (
       <div className="description-container">
         <h1>Bem-vindos!</h1>
@@ -15,6 +14,5 @@ Decidi estudar tecnologia de forma mais completa, focando em desenvolvimento de 
       </div>
     );
   }
-}
 
 export default ProfileDescription;

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Footer from '../components/Footer';
 import Graduation from '../components/Graduation';
 import Habilidades from '../components/Habilidades';
@@ -6,8 +6,7 @@ import Header from '../components/Header';
 import ProfileDescription from '../components/ProfileDescription';
 import fotoPerfil from '../images/foto-portfolio1.png';
 
-class Home extends Component {
-  render() {
+function Home(){
     return (
       <div>
         <Header />
@@ -32,6 +31,5 @@ class Home extends Component {
       </div>
     );
   }
-}
 
 export default Home;

@@ -49,7 +49,7 @@ function Curriculum() {
     <br />
     Na Mucs realizava toda parte de marketing, mídia social, eventos.
     <br />
-    Desenvolvimento de campanhas, onde realizo o casting, fotografo, para ensaio fotográfico.
+    Desenvolvimento de campanhas, onde realizava o casting, fotografo, para ensaio fotográfico.
     <br />
     Criação de posts e stories para o Instagram.
     <br />
@@ -85,7 +85,7 @@ function Curriculum() {
   <p>abril de 2014 - maio de 2016 </p>
   <p>São Paulo e Região, Brasil</p>
   <p>
-    O Grupo Toninhos é uma empresa que fornece alimentação para o mercado corporativo (administração de restaurantes, refeição transportada, entre outros), atuo na área comercial e marketing, focado em comunicação da Marca via mídia social, posicionamento de Adwords no Google e desenvolvimento de campanhas institucionais, atendo toda a carteira de clientes, assim como faço prospecção de novos negócios.
+    O Grupo Toninhos é uma empresa que fornece alimentação para o mercado corporativo (administração de restaurantes, refeição transportada, entre outros), atuava na área comercial e marketing, focado em comunicação da Marca via mídia social, posicionamento de Adwords no Google e desenvolvimento de campanhas institucionais, atendo toda a carteira de clientes, assim como faço prospecção de novos negócios.
   </p>
 
   <h2>Grupo Sacada / Oh, Boy! / Addict</h2>

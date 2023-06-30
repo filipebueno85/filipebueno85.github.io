@@ -15,7 +15,7 @@ class Habilidades extends Component {
         <img src="https://logospng.org/download/html-5/logo-html-5-256.png" alt="html" />
         <img src="https://logospng.org/download/react/logo-react-256.png" alt="react" />
         <img src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="redux" />
-        <img src="https://assets.stickpng.com/images/62a9c7ab8ff6441a2952dad2.png" alt="docker" />
+        <img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" alt="docker" />
         <img src="https://desosa.nl/projects/docker-compose/2020/03/02/images/docker-compose/logo_docker_compose.png" alt="docker-compose" />
         <img src="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png" alt="mysql" />
         <img src="https://docs.knapsackpro.com/images/blog/posts/run-jest-on-github-actions-with-parallelization/jest.png" alt="jest" />
@@ -28,6 +28,9 @@ class Habilidades extends Component {
         <img src="https://logosmarcas.net/wp-content/uploads/2020/11/Adobe-Photoshop-Logo-650x366.png" alt="photoshop" />
         <img src="https://logodownload.org/wp-content/uploads/2017/04/adobe-Illustrator-logo-0-1-2048x2048.png" alt="illustrator" />
         <img src="https://www.coreldraw.com/static/cdgs/images/pages/product-info-sheet/key-img.png" alt="coreldraw" />
+        <img src="https://seeklogo.com/images/S/sequelize-logo-9A5075DB9F-seeklogo.com.png" alt="sequelize" />
+        <img src="https://seeklogo.com/images/J/jwt-logo-65D86B4640-seeklogo.com.png" alt="jwt" />
+        <img src="https://assets.stickpng.com/images/5cb480cd5f1b6d3fbadece79.png" alt="slack" />
         </div>
         {/* <ul>
           <li>Unix</li>
